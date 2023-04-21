@@ -2,34 +2,39 @@
   text-align: center;
 }
 
-input {
-  padding: 4px;
-  margin-right: 8px;
-}
 
 ul {
   list-style: none;
 }
 
-li {
-  margin: 12px 0;
+.header {
+  margin: auto;
+  padding: 15px;
 }
 
-.delete-button {
-  font-size: 10px;
-  margin-left: 8px;
-  border: none;
-  color: white;
-  border-radius: 4px;
-  padding-top: 4px;
-  padding-bottom: 4px;
+.list-item {
+  margin: auto;
+  display: grid;
+  
 }
-.edit-button {
-  font-size: 10px;
-  margin-left: 8px;
-  border: none;
-  color: white;
-  border-radius: 4px;
-  padding-top: 4px;
-  padding-bottom: 4px;
+
+.input-area {
+  margin: auto;
+  display: grid;
+  justify-items: center;
+  padding: 5px;
+  max-width: 70%;
+  
+}
+
+.edit-area {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.list-area {
+  margin: auto;
+  max-width: 100%;
 }
